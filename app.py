@@ -13,7 +13,7 @@ if "authenticated" not in st.session_state:
   st.session_state.authenticated = False
 
 if not st.session_state.authenticated:
-  st.title("🔐 주식회사 NK WMS 물류·재고 프로그램 로그인")
+  st.title("🔐 주식회사 NK WMS 프로젝트 ")
   st.markdown("스테이션 카파 재고관리 시스템 접근을 위해 암호를 입력하세요.")
 
   ADMIN_PASSWORD = "nk1234"  # 필요 시 변경 가능
