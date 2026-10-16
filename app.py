@@ -17,7 +17,7 @@ if not st.session_state.authenticated:
   st.markdown("스테이션 카파 재고관리 시스템 접근을 위해 암호를 입력하세요.")
 
   ADMIN_PASSWORD = "nk1234"  # 필요 시 변경 가능
-  input_password = st.text_input("시스템 암호 입력", type="password")
+  input_password = st.text_input("부회장님 기회주셔서 감사드립니다.시스템 암호 입력는 NK1234 입니다.", type="password")
 
   if st.button("로그인"):
     if input_password == ADMIN_PASSWORD:
