@@ -3,7 +3,7 @@ import streamlit as st
 
 # 페이지 설정
 st.set_page_config(
-    page_title="주식회사 NK - CO2 소화장비 WMS", layout="wide"
+    page_title="주식회사 NK - 소화장비 WMS", layout="wide"
 )
 
 # ---------------------------------------------------------
@@ -14,7 +14,7 @@ if "authenticated" not in st.session_state:
 
 if not st.session_state.authenticated:
   st.title("🔐 주식회사 NK WMS 물류·재고 프로그램 로그인")
-  st.markdown("조선소 CO2 소화장비 관리 시스템 접근을 위해 암호를 입력하세요.")
+  st.markdown("조선소 소화장비 관리 시스템 접근을 위해 암호를 입력하세요.")
 
   ADMIN_PASSWORD = "nk1234"  # 필요 시 변경 가능
   input_password = st.text_input("시스템 암호 입력", type="password")
