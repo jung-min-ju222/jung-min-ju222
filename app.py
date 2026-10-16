@@ -133,8 +133,8 @@ with col_logo:
   st.caption("FIRE PROTECTION")
 
 with col_title:
-  st.title("조선소 CO2 소화장비 WMS 통합 대시보드")
-  st.markdown("호선별 자재 관리, 창고 보관율 모니터링 및 실시간 물류 시스템")
+  st.title("실시간 물류시스템")
+  st.markdown("호선별 자재 관리, 창고 보관율 모니터링")
 
 st.divider()
 
