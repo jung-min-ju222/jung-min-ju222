@@ -59,6 +59,7 @@ if "inventory_df" not in st.session_state:
           "상태": "🔥 긴급 (D-7일)",
       },
       {
+          "수주번호": "NK-2026-002",
           "호선 프로젝트": "H-2025 (Cargo Hold)",
           "랙 위치": "Rack 03~06 (Zone B)",
           "품번": "VAL-SEL-080",
@@ -72,6 +73,7 @@ if "inventory_df" not in st.session_state:
           "상태": "🚨 품절 위험 (D-3일)",
       },
       {
+          "수주번호": "NK-2026-003",
           "호선 프로젝트": "H-2026 (ECR 전장품실)",
           "랙 위치": "Rack 07~10 (Zone C)",
           "품번": "CTR-PAN-CO2",
@@ -85,6 +87,7 @@ if "inventory_df" not in st.session_state:
           "상태": "✅ 안정 (출하대기)",
       },
       {
+          "수주번호": "NK-2026-004",
           "호선 프로젝트": "H-2026 (공통 방호구역)",
           "랙 위치": "Rack 07~10 (Zone C)",
           "품번": "MAN-FLG-50",
