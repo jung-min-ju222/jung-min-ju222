@@ -45,7 +45,6 @@ st.sidebar.markdown("---")
 if "inventory_df" not in st.session_state:
   st.session_state.inventory_df = pd.DataFrame([
       {
-          "수주번호",
           "호선 프로젝트": "H-2025 (Engine Room)",
           "랙 위치": "Rack 01~02 (Zone A)",
           "품번": "CY-CO2-68L",
