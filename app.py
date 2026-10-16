@@ -137,7 +137,7 @@ with col_logo:
   # 방법 A: 로고 이미지 파일이 있다면 파일명 입력 (예: 'nk_logo.png')
   # 방법 B: 아래처럼 웹 이미지 주소나 공백 처리 가능
   # st.image("nk_logo.png", width=150)
-  st.markdown("### 🛡️ 주식회사 NK")
+  st.markdown("###  주식회사 NK")
   st.caption("FIRE PROTECTION")
 
 with col_title:
