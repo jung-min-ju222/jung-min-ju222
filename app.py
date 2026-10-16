@@ -244,7 +244,7 @@ elif menu_choice == "🚢 신규 호선(프로젝트) 추가":
   new_loc = st.sidebar.text_input("배정 랙 위치 (예: Rack 11 (Zone D))")
   new_item_code = st.sidebar.text_input("대표 품번 (예: CY-CO2-45L)")
   new_item_name = st.sidebar.text_input(
-      "품명 및 사양 (예: 45L 실린더 세트)"
+      "품명 및 사양 (예: 68L 실린더 세트)"
   )
   new_price = st.sidebar.number_input(
       "단가 (원)", min_value=0, value=500000, step=10000
