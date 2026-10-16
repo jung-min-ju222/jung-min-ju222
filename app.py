@@ -227,7 +227,7 @@ elif menu_choice == "📤 출고 반영 (정규/중간)":
       "출고할 품번 선택", df["품번"].unique().tolist()
   )
   out_type = st.sidebar.radio(
-      "출고 유형", ["정규 출고 (킷팅)", "중간 반출 (AS/시험)"]
+      "출고 유형", ["정규 출고", "중간 반출"]
   )
   out_qty = st.sidebar.number_input("출고 수량", min_value=1, value=1)
 
