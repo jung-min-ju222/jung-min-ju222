@@ -45,8 +45,9 @@ st.sidebar.markdown("---")
 if "inventory_df" not in st.session_state:
   st.session_state.inventory_df = pd.DataFrame([
       {
+          "고객사": "HD현대중공업",
           "수주번호": "NK-2026-001",
-          "호선 프로젝트": "H-2025 (Engine Room)",
+          "호선 프로젝트": "H-2025 (xxx Room)",
           "랙 위치": "Rack 01~02 (Zone A)",
           "품번": "CY-CO2-68L",
           "품명 및 사양": "68L 고압실린더 + 시리얼",
@@ -59,6 +60,7 @@ if "inventory_df" not in st.session_state:
           "상태": "🔥 긴급 (D-7일)",
       },
       {
+          "고객사": "한화오션",
           "수주번호": "NK-2026-002",
           "호선 프로젝트": "H-2025 (Cargo Hold)",
           "랙 위치": "Rack 03~06 (Zone B)",
@@ -73,6 +75,7 @@ if "inventory_df" not in st.session_state:
           "상태": "🚨 품절 위험 (D-3일)",
       },
       {
+          "고객사": "현대미포중공업",
           "수주번호": "NK-2026-003",
           "호선 프로젝트": "H-2026 (ECR 전장품실)",
           "랙 위치": "Rack 07~10 (Zone C)",
@@ -87,6 +90,7 @@ if "inventory_df" not in st.session_state:
           "상태": "✅ 안정 (출하대기)",
       },
       {
+          "고객사": "삼성중공업",
           "수주번호": "NK-2026-004",
           "호선 프로젝트": "H-2026 (공통 방호구역)",
           "랙 위치": "Rack 07~10 (Zone C)",
